@@ -1,6 +1,12 @@
-
+/**
+ * 
+ * @author xin
+ *
+ */
 public class MajorityElement_169 {
-	
+	/*
+	 * This is the idea of Bloom Filter
+	 */
     public int majorityElement(int[] num) {
         int majority = -1;
         int frequency = 0;
