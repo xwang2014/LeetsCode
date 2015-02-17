@@ -1,4 +1,4 @@
-public class Solution {
+public class Sy152MaximumProductSubarray {
     public int maxProduct(int[] A) {
         if(A==null||A.length==0)
             return 0;

@@ -1,4 +1,4 @@
-public class Solution {
+public class Sy153FindMinimumInRotatedSortedArray {
     public int findMin(int[] num) {
         if(num==null||num.length==0)
             return 0;
