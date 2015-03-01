@@ -15,6 +15,8 @@ public class Sy153FindMinimumInRotatedSortedArray {
             return num[start];
         if(start>end)
             return Integer.MAX_VALUE;
+        if(start+1==end)
+        	return Math.min(num[start], num[end]);
         int mid = (start + end)/2;
         
         int min = 0;
